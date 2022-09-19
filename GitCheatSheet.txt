@@ -1,0 +1,10 @@
+1.  touch .gitignore
+2. git config --global user.name Nitesh
+3. git config --global.user.gmail "yadavnitesh553@gmail.com"
+4. git init
+5. git add . 
+6. git commit -m "INitial content". //Later add the folders you want to update
+7. git status //just to see
+8. ssh-keygen -t ed25519 -C "your_email@example.com"
+9. tail <path to id_rsa.pub> #Add this key to your Github account (for new key generated)
+10. git remote add origin <ssh url.git>
